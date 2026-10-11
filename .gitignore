@@ -1,0 +1,11 @@
+# Local credentials and generated files
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+build/
+install/
+log/

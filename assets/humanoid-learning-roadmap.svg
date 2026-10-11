@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2240" viewBox="0 0 1800 2240" role="img" aria-labelledby="title desc">
+<title id="title">人形机器人学习路线：怎么学，可以掌握什么</title>
+<desc id="desc">先学基础与环境、ROS 2、机器人模型与仿真，再分为运动控制、建图导航、视觉交互三条路线，汇合为系统集成，有设备时继续灵犀 X2 实践。</desc>
+<rect width="1800" height="2240" fill="#f5f8fc"/>
+<text x="70" y="102" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="62" font-weight="700" fill="#172c48">人形机器人学习路线</text>
+<text x="70" y="156" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="34" font-weight="400" fill="#526884">怎么学  ·  可以掌握什么</text>
+<text x="1585" y="85" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#526884">Mengyuan Wang</text>
+<text x="70" y="206" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#63758e">共同基础 → 专题学习 → 系统集成 → 设备实践</text>
+<rect x="70" y="240" width="1660" height="168" rx="22" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+<rect x="92" y="265" width="66" height="66" rx="16" fill="#2563a6" stroke="#2563a6" stroke-width="2"/>
+<text x="125" y="307" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#ffffff">01</text>
+<text x="184" y="300" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#25364b">基础与环境</text>
+<text x="184" y="353" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#25364b">怎么学：Linux、Python / C++、数学基础；搭建课程环境</text>
+<text x="184" y="395" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#2563a6">能力目标：配置开发环境，理解坐标、矩阵与机器人基础</text>
+<text x="1160" y="294" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#63758e">入口：课程预习 · 环境教程 · 作业00</text>
+<polyline points="900,410 900,448" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polygon points="891,435 909,435 900,448" fill="#93a4bc"/>
+<rect x="70" y="450" width="1660" height="168" rx="22" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+<rect x="92" y="475" width="66" height="66" rx="16" fill="#2563a6" stroke="#2563a6" stroke-width="2"/>
+<text x="125" y="517" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#ffffff">02</text>
+<text x="184" y="510" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#25364b">ROS 2 通信与工具</text>
+<text x="184" y="563" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#25364b">怎么学：节点、话题、服务、动作、参数；工作空间、QoS、TF</text>
+<text x="184" y="605" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#2563a6">能力目标：编写发布订阅节点，用 RViz 与 rosbag 观察和排错</text>
+<text x="1160" y="504" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#63758e">入口：X2 01–02 · 环境教程</text>
+<polyline points="900,620 900,658" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polygon points="891,645 909,645 900,658" fill="#93a4bc"/>
+<rect x="70" y="660" width="1660" height="168" rx="22" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+<rect x="92" y="685" width="66" height="66" rx="16" fill="#2563a6" stroke="#2563a6" stroke-width="2"/>
+<text x="125" y="727" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#ffffff">03</text>
+<text x="184" y="720" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="36" font-weight="700" fill="#25364b">机器人模型与仿真</text>
+<text x="184" y="773" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#25364b">怎么学：模型与坐标、运动学与动力学、PD；G1 / MuJoCo / Isaac</text>
+<text x="184" y="815" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="400" fill="#2563a6">能力目标：加载仿真模型，理解关节指令、状态反馈与控制流程</text>
+<text x="1160" y="714" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#63758e">入口：课堂01 · 作业01 · 仿真教程</text>
+<text x="900" y="888" text-anchor="middle" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#63758e">完成共同基础后，按兴趣选择专题；三条路线可以并行学习</text>
+<polyline points="900,904 900,917" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polyline points="336,917 1440,917" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polyline points="336,917 336,951" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polygon points="327,938 345,938 336,951" fill="#93a4bc"/>
+<polyline points="888,917 888,951" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polygon points="879,938 897,938 888,951" fill="#93a4bc"/>
+<polyline points="1440,917 1440,951" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polygon points="1431,938 1449,938 1440,951" fill="#93a4bc"/>
+<rect x="70" y="956" width="532" height="451" rx="22" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+<rect x="90" y="976" width="492" height="64" rx="14" fill="#eaf7f2" stroke="#eaf7f2" stroke-width="2"/>
+<text x="110" y="1020" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="700" fill="#1d7b68">运动控制与行走</text>
+<text x="104" y="1087" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#63758e">怎么学</text>
+<text x="104" y="1131" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">关节位置、速度与力矩控制</text>
+<text x="104" y="1174" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">HAL、PD、Ruckig 轨迹</text>
+<text x="104" y="1217" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">观测、奖励、PPO 行走策略</text>
+<text x="104" y="1260" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">ONNX 部署与 Sim2Real</text>
+<rect x="90" y="1290" width="492" height="96" rx="14" fill="#eaf7f2" stroke="#eaf7f2" stroke-width="2"/>
+<text x="104" y="1323" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#1d7b68">能力目标：在仿真中验证行走策略</text>
+<text x="104" y="1365" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#1d7b68">检查观测、动作与控制周期</text>
+<text x="96" y="1453" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#63758e">课堂02 · 作业02 · X2 05/07</text>
+<rect x="622" y="956" width="532" height="451" rx="22" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+<rect x="642" y="976" width="492" height="64" rx="14" fill="#edf4fc" stroke="#edf4fc" stroke-width="2"/>
+<text x="662" y="1020" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="700" fill="#306ca8">建图、导航与探索</text>
+<text x="656" y="1087" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#63758e">怎么学</text>
+<text x="656" y="1131" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">激光、IMU 与点云处理</text>
+<text x="656" y="1174" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">FAST-LIO、GICP / NDT 定位</text>
+<text x="656" y="1217" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">栅格地图、A* / DWA / Nav2</text>
+<text x="656" y="1260" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">TARE / FAR 自主探索</text>
+<rect x="642" y="1290" width="492" height="96" rx="14" fill="#edf4fc" stroke="#edf4fc" stroke-width="2"/>
+<text x="656" y="1323" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#306ca8">能力目标：构建地图并初始化定位</text>
+<text x="656" y="1365" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#306ca8">理解路径规划、避障与探索</text>
+<text x="648" y="1453" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#63758e">课堂03–05 · 作业03–05</text>
+<rect x="1174" y="956" width="532" height="451" rx="22" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+<rect x="1194" y="976" width="492" height="64" rx="14" fill="#f5effa" stroke="#f5effa" stroke-width="2"/>
+<text x="1214" y="1020" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="35" font-weight="700" fill="#84549f">视觉感知与交互</text>
+<text x="1208" y="1087" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#63758e">怎么学</text>
+<text x="1208" y="1131" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">RGB-D、YOLO 目标检测</text>
+<text x="1208" y="1174" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">坐标变换、视觉定位、EKF</text>
+<text x="1208" y="1217" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">ASR → LLM → TTS 语音链路</text>
+<text x="1208" y="1260" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="400" fill="#25364b">足球任务与视觉语言导航</text>
+<rect x="1194" y="1290" width="492" height="96" rx="14" fill="#f5effa" stroke="#f5effa" stroke-width="2"/>
+<text x="1208" y="1323" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="700" fill="#84549f">能力目标：检测目标并估计三维位置</text>
+<text x="1208" y="1365" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="27" font-weight="400" fill="#84549f">接通语音输入与任务反馈</text>
+<text x="1200" y="1453" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#63758e">课堂06–08 · 作业06–08</text>
+<polyline points="336,1475 336,1500" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polyline points="888,1475 888,1500" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polyline points="1440,1475 1440,1500" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polyline points="336,1500 1440,1500" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polyline points="888,1500 888,1540" fill="none" stroke="#93a4bc" stroke-width="3"/>
+<polygon points="879,1527 897,1527 888,1540" fill="#93a4bc"/>
+<rect x="70" y="1545" width="1660" height="215" rx="22" fill="#ffffff" stroke="#dbe3ef" stroke-width="2"/>
+<text x="104" y="1609" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" fill="#172c48">04  系统集成与任务验证</text>
+<text x="104" y="1663" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#25364b">怎么学：串联感知、规划、控制与交互；对照作业组织状态机和执行流程</text>
+<text x="104" y="1714" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#2563a6">能力目标：检查目标、反馈、失败与取消，解释系统的数据流和控制链</text>
+<text x="104" y="1745" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#63758e">入口：课堂04–08 · 对应作业 · X2 建图与导航</text>
+<polyline points="900,1765 900,1830" fill="none" stroke="#93a4bc" stroke-width="3" stroke-dasharray="10 8"/>
+<polygon points="891,1817 909,1817 900,1830" fill="#93a4bc"/>
+<rect x="1050" y="1776" width="280" height="44" rx="0" fill="#f5f8fc" stroke="#f5f8fc" stroke-width="2"/>
+<text x="1065" y="1806" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#63758e">有设备时继续实践</text>
+<rect x="70" y="1840" width="1660" height="190" rx="22" fill="#edf2f8" stroke="#dbe3ef" stroke-width="2"/>
+<text x="104" y="1900" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="39" font-weight="700" fill="#172c48">05  灵犀 X2 二次开发</text>
+<text x="104" y="1953" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#25364b">怎么学：硬件与模式 → SDK 状态服务 → 传感器订阅 → 速度与任务接口适配</text>
+<text x="104" y="2003" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#2563a6">能力目标：理解控制权与模式切换，在仿真验证后评估真机运行条件</text>
+<text x="70" y="2104" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="700" fill="#172c48">每个阶段都按同一方法推进</text>
+<text x="70" y="2157" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="31" font-weight="400" fill="#526884">读课堂概念 → 对照作业复现 → 检查数据与结果 → 记录问题与排错</text>
+<text x="70" y="2210" text-anchor="start" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="25" font-weight="400" fill="#63758e">图中能力为学习目标；具体入口和版本条件见下方目录。</text>
+</svg>
