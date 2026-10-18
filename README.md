@@ -1,5 +1,7 @@
 # Mengyuan Wang 人形机器人学习与实践笔记
 
+**[仓库介绍视频版（B站）](https://www.bilibili.com/video/BV1xRJD6TEPe/)**
+
 ![人形机器人学习路线：怎么学，可以掌握什么](assets/humanoid-learning-roadmap.png)
 
 这份笔记围绕一个问题展开：怎样从基础知识开始，逐步学会让人形机器人感知环境、保持运动、找到路线，并与人交流？
